@@ -43,5 +43,5 @@ class Server {
         this.app.listen(this.port, () =>{
             console.log('Server online port: ', this.port);
         });
-    };
+    }
 }
